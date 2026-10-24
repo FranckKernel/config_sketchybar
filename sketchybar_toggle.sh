@@ -3,5 +3,5 @@
 if pgrep -x sketchybar >/dev/null; then 
 	killall sketchybar 
 else 
-	sketchybar
+	sketchybar &
 fi 
